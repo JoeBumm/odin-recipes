@@ -14,23 +14,27 @@
     font-weight: bold;
 }
 
+#uni:hover{
+    color: rgb(251, 251, 251);
+}
+
 a {
-    text-decoration: none;
-    color: black;
+    
 }
 
-li {
+li,a{
     text-align: center;
-    list-style: none;
-    /* padding-top: 1px; */
+    text-decoration: none;
+    color: black;   
+    list-style-type: none;
     background-color: bisque;
+    padding: 0%;
+    margin: 0%;
 }
-/* a:hover {
+
+#l1,a:hover {
     color: hotpink;
-    font-size: 0px;
-  } */
-
-
+  } 
 
 #pyramid {
     display: block;
@@ -49,3 +53,4 @@ li {
     font-weight: 1000;
     color: rgb(0, 0, 0);
 }
+
